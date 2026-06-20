@@ -9,7 +9,6 @@ import { CareSection } from './components/CareSection.jsx';
 import { LocationsSection } from './components/LocationsSection.jsx';
 import { ContactSection } from './components/ContactSection.jsx';
 import { Footer } from './components/Footer.jsx';
-import { MobileCallBar } from './components/MobileCallBar.jsx';
 
 export function App() {
   const [menuOpen, setMenuOpen] = React.useState(false);
@@ -35,7 +34,6 @@ export function App() {
       </main>
 
       <Footer />
-      <MobileCallBar branches={branches} />
     </>
   );
 }
